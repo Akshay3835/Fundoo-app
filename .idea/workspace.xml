@@ -9,7 +9,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffcc6c10-596d-4b8a-9c21-1a241eef4a86" name="Default Changelist" comment="" />
+    <list default="true" id="ffcc6c10-596d-4b8a-9c21-1a241eef4a86" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/ViewModel/RestApiNoteViewModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="-15">
               <caret line="262" lean-forward="true" selection-start-line="262" selection-end-line="262" />
             </state>
           </provider>
@@ -96,7 +98,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -496,7 +498,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/ViewModel/RestApiNoteViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="-15">
           <caret line="262" lean-forward="true" selection-start-line="262" selection-end-line="262" />
         </state>
       </provider>
