@@ -110,7 +110,7 @@ public class RestApiNoteViewModel {
 
                 intent.putExtra("throwable", throwable);
                 localBroadcastManager.sendBroadcast(intent);
-
+// commented in restapinodeviewmodel file
             }
         });
 
