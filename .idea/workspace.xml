@@ -11,6 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ffcc6c10-596d-4b8a-9c21-1a241eef4a86" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/View/AddNoteActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/View/AddNoteActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,38 +28,12 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/View/AddNoteActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1893">
-              <caret line="310" column="29" selection-start-line="310" selection-start-column="29" selection-end-line="310" selection-end-column="29" />
-              <folding>
-                <element signature="e#6086#6124#0" expanded="true" />
-                <element signature="e#6154#6192#0" expanded="true" />
-                <element signature="e#6221#6262#0" expanded="true" />
-                <element signature="e#6293#6332#0" expanded="true" />
-                <element signature="e#6363#6402#0" expanded="true" />
-                <element signature="e#6430#6466#0" expanded="true" />
-                <element signature="e#9819#10786#0" expanded="true" />
-                <element signature="e#10785#10786#0" expanded="true" />
-                <element signature="e#10854#11792#0" expanded="true" />
-                <element signature="e#11791#11792#0" expanded="true" />
-                <element signature="e#11863#12259#0" expanded="true" />
-                <element signature="e#12258#12259#0" expanded="true" />
-                <element signature="e#12323#12732#0" expanded="true" />
-                <element signature="e#12731#12732#0" expanded="true" />
-                <element signature="e#12797#13182#0" expanded="true" />
-                <element signature="e#13181#13182#0" expanded="true" />
-                <element signature="e#13249#13643#0" expanded="true" />
-                <element signature="e#13642#13643#0" expanded="true" />
-                <element signature="e#15309#15310#0" expanded="true" />
-                <element signature="e#15351#15352#0" expanded="true" />
-                <element signature="e#19270#19589#0" expanded="true" />
-                <element signature="e#19588#19589#0" expanded="true" />
-                <element signature="e#20026#20315#0" expanded="true" />
-                <element signature="e#20314#20315#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="151">
+              <caret line="514" column="54" selection-start-line="514" selection-start-column="54" selection-end-line="514" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -65,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/data_manager/RestApiNoteDataManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-354">
+            <state relative-caret-position="960">
               <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
             </state>
           </provider>
@@ -74,23 +50,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/Dashboard/DashboardActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="2345">
               <caret line="391" column="40" selection-start-line="391" selection-start-column="40" selection-end-line="391" selection-end-column="40" />
-              <folding>
-                <element signature="e#7438#8011#0" expanded="true" />
-                <element signature="e#8010#8011#0" expanded="true" />
-                <element signature="e#8147#8296#0" expanded="true" />
-                <element signature="e#8295#8296#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/ViewModel/RestApiNoteViewModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="262" lean-forward="true" selection-start-line="262" selection-end-line="262" />
+            <state relative-caret-position="260">
+              <caret line="249" column="31" selection-start-line="249" selection-start-column="31" selection-end-line="249" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -98,6 +68,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -107,10 +78,10 @@
         <option value="$PROJECT_DIR$/src/main/res/drawable/checkbox_archive.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_add_note.xml" />
         <option value="$PROJECT_DIR$/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/View/AddNoteActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/Dashboard/DashboardActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/data_manager/RestApiNoteDataManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/ViewModel/RestApiNoteViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/View/AddNoteActivity.java" />
       </list>
     </option>
   </component>
@@ -126,72 +97,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Fundoo-app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="Fundoo-app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="Fundoo-app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="fundoo" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fundoo-app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="fundoo" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="add_note_page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fundoo-app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="fundoo" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="add_note_page" type="462c0819:PsiDirectoryNode" />
-              <item name="data_manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fundoo-app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="fundoo" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="add_note_page" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fundoo-app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="fundoo" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fundoo-app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="Fundoo-app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,6 +197,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18355946" />
@@ -298,21 +208,22 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Find" weight="0.32899022" />
       <window_info anchor="bottom" id="Logcat" order="0" weight="0.32899022" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Debug" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.37662336" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.29848364" side_tool="true" weight="0.95114005" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Build" order="6" weight="0.5358306" />
-      <window_info anchor="bottom" id="Android Profiler" order="7" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.16938111" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="8" sideWeight="0.7015164" weight="0.45276874" />
-      <window_info anchor="right" id="Preview" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" />
     </layout>
     <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -345,18 +256,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/View/AddNoteActivity.java</url>
-          <line>343</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/View/AddNoteActivity.java</url>
-          <line>346</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/View/AddNoteActivity.java</url>
           <line>290</line>
           <properties />
           <option name="timeStamp" value="5" />
@@ -371,13 +270,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/res/values/refs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/refs.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/res/drawable/checkbox_archive.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -386,12 +279,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_add_note.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="245" selection-start-line="231" selection-start-column="8" selection-end-line="245" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/Model/AddNoteModel.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -443,63 +336,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/View/AddNoteActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1893">
-          <caret line="310" column="29" selection-start-line="310" selection-start-column="29" selection-end-line="310" selection-end-column="29" />
-          <folding>
-            <element signature="e#6086#6124#0" expanded="true" />
-            <element signature="e#6154#6192#0" expanded="true" />
-            <element signature="e#6221#6262#0" expanded="true" />
-            <element signature="e#6293#6332#0" expanded="true" />
-            <element signature="e#6363#6402#0" expanded="true" />
-            <element signature="e#6430#6466#0" expanded="true" />
-            <element signature="e#9819#10786#0" expanded="true" />
-            <element signature="e#10785#10786#0" expanded="true" />
-            <element signature="e#10854#11792#0" expanded="true" />
-            <element signature="e#11791#11792#0" expanded="true" />
-            <element signature="e#11863#12259#0" expanded="true" />
-            <element signature="e#12258#12259#0" expanded="true" />
-            <element signature="e#12323#12732#0" expanded="true" />
-            <element signature="e#12731#12732#0" expanded="true" />
-            <element signature="e#12797#13182#0" expanded="true" />
-            <element signature="e#13181#13182#0" expanded="true" />
-            <element signature="e#13249#13643#0" expanded="true" />
-            <element signature="e#13642#13643#0" expanded="true" />
-            <element signature="e#15309#15310#0" expanded="true" />
-            <element signature="e#15351#15352#0" expanded="true" />
-            <element signature="e#19270#19589#0" expanded="true" />
-            <element signature="e#19588#19589#0" expanded="true" />
-            <element signature="e#20026#20315#0" expanded="true" />
-            <element signature="e#20314#20315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/Dashboard/DashboardActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="391" column="40" selection-start-line="391" selection-start-column="40" selection-end-line="391" selection-end-column="40" />
-          <folding>
-            <element signature="e#7438#8011#0" expanded="true" />
-            <element signature="e#8010#8011#0" expanded="true" />
-            <element signature="e#8147#8296#0" expanded="true" />
-            <element signature="e#8295#8296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/data_manager/RestApiNoteDataManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-354">
+        <state relative-caret-position="960">
           <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/ViewModel/RestApiNoteViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="262" lean-forward="true" selection-start-line="262" selection-end-line="262" />
+        <state relative-caret-position="260">
+          <caret line="249" column="31" selection-start-line="249" selection-start-column="31" selection-end-line="249" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/Dashboard/DashboardActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2345">
+          <caret line="391" column="40" selection-start-line="391" selection-start-column="40" selection-end-line="391" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bridgelabz/fundoo/add_note_page/View/AddNoteActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="514" column="54" selection-start-line="514" selection-start-column="54" selection-end-line="514" selection-end-column="54" />
         </state>
       </provider>
     </entry>

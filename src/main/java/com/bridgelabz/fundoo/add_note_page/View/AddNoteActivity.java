@@ -41,6 +41,8 @@ import com.bridgelabz.fundoo.utility.DatePickerFragement;
 import com.bridgelabz.fundoo.utility.TimePickerFragement;
 import com.bridgelabz.fundoo.utility.ValidationHelper;
 
+import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -190,8 +192,7 @@ public class AddNoteActivity extends AppCompatActivity implements DatePickerDial
                             noteToEdit.setTitle(title);
                             noteToEdit.setDescription(description);
                             noteToEdit.setColor(noteColor);
-                           noteToEdit.setReminder(noteToEdit.getReminder());
-//                            restApiNoteViewModel.addReminderNoteList(noteToEdit);
+                            setReminderNotification(convertStringToDate(noteToEdit.getReminder(),"EEE ,MMM d hh : mm : ss" ) );
                             updateNoteToDB(noteToEdit);
                         } else {
 
@@ -436,7 +437,7 @@ public class AddNoteActivity extends AppCompatActivity implements DatePickerDial
 
                     DialogFragment timePicker = new TimePickerFragement();
                     timePicker.show(getSupportFragmentManager(), "time Picker");
-                    restApiNoteViewModel.addReminderNoteList(noteToEdit);
+                    restApiNoteViewModel.getReminderNoteList();
 //                    updateNoteToDB(ad);
                 }
                 return true;
@@ -483,7 +484,7 @@ public class AddNoteActivity extends AppCompatActivity implements DatePickerDial
                         }
                     }, mYear, mMonth, mDay);
             datePickerDialog.show();
-
+            restApiNoteViewModel.addReminderNoteList(noteToEdit);
             setDateTimeString("EEE ,MMM d ", calendar.getTime());
         }
         if (v == mButtonTime) {
@@ -500,6 +501,7 @@ public class AddNoteActivity extends AppCompatActivity implements DatePickerDial
                     }, mHour, mMinute, false);
 
             timePickerDialog.show();
+            restApiNoteViewModel.addReminderNoteList(noteToEdit);
             setDateTimeString("hh : mm : ss", calendar.getTime());
         }
 
@@ -510,8 +512,20 @@ public class AddNoteActivity extends AppCompatActivity implements DatePickerDial
         reminderBuilder.append(simpleDateFormat.format(date)).append(" ");
     }
 
+    private Date convertStringToDate(String stringToConvert,String pattern)
+    {
+        Date convertedDate = null;
+        DateFormat dateFormat = new SimpleDateFormat(pattern,Locale.getDefault());
+        try {
+            convertedDate = dateFormat.parse(stringToConvert);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return convertedDate;
+    }
 
-    private void setReminder(Date date) {
+
+    private void setReminderNotification(Date date) {
         AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
         Calendar calendar = Calendar.getInstance();
         calendar.add(Calendar.SECOND, 5);
@@ -522,7 +536,7 @@ public class AddNoteActivity extends AppCompatActivity implements DatePickerDial
                 PendingIntent.FLAG_UPDATE_CURRENT);
 
         alarmManager.set(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), broadcast);
-        Log.e(TAG, "setReminder method called");
+        Log.e(TAG, "setReminderNotification method called");
     }
 
 
